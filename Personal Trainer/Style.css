@@ -1,0 +1,34 @@
+
+
+.Red {
+    color: red;
+    font-family: 'Play', sans-serif;
+}
+
+.White {
+    color: black;
+    font-family: 'Play', sans-serif;
+}
+
+h3 {
+    color: black;
+    font-family: 'Play', sans-serif;
+}
+
+hr {
+    color: red;
+    width: 500px;
+    margin-left: 0;
+}
+
+.Button {
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    font-weight: 600;
+    padding: 15px 15px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
