@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+
+
 body {
     background-image: url(Images/MAIN\ BACKGROUND.PNG);
     background-size: cover;
@@ -12,13 +16,16 @@ body {
     text-align: right; /* Align the menu to the right */
     background-color: transparent; /* Background color for the header */
     font-family: 'Play', sans-serif;
-    padding-right: 20px; /* Adjust padding as needed */
+    padding-right: 20px; /* Adjust padding as needed */ 
 }
 
 .List {
     list-style-type: none; /* Remove default list styling */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
 
 .List li {
@@ -33,7 +40,7 @@ body {
     position: relative;
 }
 
-.List li:not(:last-child) a::after {
+.List li:not(:first-child) a::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -51,10 +58,12 @@ body {
 }
 
 .logo {
-    height: 100px;
-    width: 150px;
-    margin-right: 650px;
+    height: 80px;
+    width: 120px;
     margin-top: 40px;
+    left: -800px;
+    top: -40px;
+    position: absolute;
 }
 
 
@@ -68,16 +77,19 @@ body {
 .Red {
     color: red;
     font-family: 'Play', sans-serif;
+    font-size: 50px;
 }
 
 .White {
     color: White;
     font-family: 'Play', sans-serif;
+    font-size: 50px;
 }
 
 h3 {
     color: White;
     font-family: 'Play', sans-serif;
+    font-size: 30px;
 }
 
 hr {
@@ -87,7 +99,7 @@ hr {
 }
 
 .Hero {
-    margin-top: 200px;
+    margin-top: 350px;
     margin-left: 30px;
 }
 
