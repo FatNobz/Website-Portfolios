@@ -1,3 +1,68 @@
+body {
+    background-image: url(Images/MAIN\ BACKGROUND.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: keeps the background fixed when scrolling */
+    margin: 0; /* Optional: removes default body margin */
+    padding: 0; /* Optional: removes default body padding */
+}
+
+
+#header {
+    text-align: right; /* Align the menu to the right */
+    background-color: transparent; /* Background color for the header */
+    font-family: 'Play', sans-serif;
+    padding-right: 20px; /* Adjust padding as needed */
+}
+
+.List {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.List li {
+    display: inline-block; /* Display list items horizontally */
+}
+
+.List li a {
+    display: inline-block;
+    padding: 15px 20px; /* Adjust padding as needed */
+    color: white; /* White font color */
+    text-decoration: none;
+    position: relative;
+}
+
+.List li:not(:last-child) a::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 1px; /* Width of the red line */
+    height: 70%; /* Height of the red line */
+    background-color: red; /* Color of the red line */
+}
+
+.List li.active a {
+    /* Add styles for the active link if needed */
+    font-weight: bold;
+    /* additional styles for active link */
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    margin-right: 650px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
 
 
 .Red {
@@ -6,29 +71,34 @@
 }
 
 .White {
-    color: black;
+    color: White;
     font-family: 'Play', sans-serif;
 }
 
 h3 {
-    color: black;
+    color: White;
     font-family: 'Play', sans-serif;
 }
 
 hr {
-    color: red;
+    border-color: red;
     width: 500px;
     margin-left: 0;
 }
 
+.Hero {
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
 .Button {
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Play', sans-serif;
     font-weight: 600;
-    padding: 15px 15px;
-    color: black;
+    padding: 10px 15px;
+    color: WHite;
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid White;
     border-radius: 10px;
     cursor: pointer;
 }
