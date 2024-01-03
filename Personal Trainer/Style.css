@@ -12,11 +12,15 @@ body {
 }
 
 
+
+/* Header */
+
+
 #header {
     text-align: right; /* Align the menu to the right */
     background-color: transparent; /* Background color for the header */
     font-family: 'Play', sans-serif;
-    padding-right: 20px; /* Adjust padding as needed */ 
+    padding-right: 20px; /* Adjust padding as needed */
 }
 
 .List {
@@ -40,7 +44,7 @@ body {
     position: relative;
 }
 
-.List li:not(:first-child) a::after {
+.List li:not(:first-child):not(:last-child) a::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -61,7 +65,7 @@ body {
     height: 80px;
     width: 120px;
     margin-top: 40px;
-    left: -800px;
+    left: -760px;
     top: -40px;
     position: absolute;
 }
@@ -69,19 +73,16 @@ body {
 
 
 
+/* Hero */
 
-
-
-
-
-.Red {
+#Hero .Red {
     color: red;
     font-family: 'Play', sans-serif;
     font-size: 50px;
 }
 
-.White {
-    color: White;
+#Hero .White {
+    color: white;
     font-family: 'Play', sans-serif;
     font-size: 50px;
 }
@@ -92,7 +93,7 @@ h3 {
     font-size: 30px;
 }
 
-hr {
+.herohr{
     border-color: red;
     width: 500px;
     margin-left: 0;
@@ -104,13 +105,88 @@ hr {
 }
 
 .Button {
-    font-size: 17px;
-    font-family: 'Play', sans-serif;
-    font-weight: 600;
     padding: 10px 15px;
-    color: WHite;
-    background-color: transparent;
-    border: 1px solid White;
-    border-radius: 10px;
+    height: 110px;
+    width: 420px;
     cursor: pointer;
+    margin-left: -50px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Play', sans-serif;
+}
+
+footer h1 {
+    color: red;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    color: black;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    color: black;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow {
+    color: red;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: red;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+footer hr {
+    border-color: red;  
+    width: 1920px;
 }
