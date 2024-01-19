@@ -83,18 +83,33 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     margin: 0 auto;
     margin-top: 150px;
-    text-align: center; /* Center the text within the container */
+    text-align: center;
 }
 
 .buttons {
+    position: relative;
+    top: -50px;
     margin-bottom: 20px;
 }
 
-button {
+.container button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
     opacity: 100%;
-    padding: 10px 20px;
+    padding: 15px 40px;
     margin: 0 10px;
     font-size: 16px;
+}
+.container button :hover {
+    background-color: rgb(192, 190, 190);
+    border: none;
+    border-radius: 10px;
+    opacity: 100%;
+    padding: 15px 40px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .form-group {
@@ -123,13 +138,15 @@ input {
 }
 
 button[type="submit"] {
-    background-color: #bdbdbd;
-    color: #fff;
+    margin-top: 20px;
+    background-color: #e4e2e2;
+    color: black;
     cursor: pointer;
+    display: none; /* Initially hide the submit button */
 }
 
 button[type="submit"]:hover {
-    background-color: #ffffff;
+    background-color: #aaaaaa;
 }
 
 
