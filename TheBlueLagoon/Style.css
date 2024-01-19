@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+
+body {
+    background-image: url(Images/Main\ background.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+
+/* Header */
+
+#header {
+    text-align: right; /* Align the menu to the right */
+    background-color: transparent; /* Background color for the header */
+    font-family: 'Almarai', sans-serif;
+    padding-right: 20px; /* Adjust padding as needed */
+}
+
+.List {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.List li {
+    display: inline-block;
+}
+
+.List li a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.List li.active a {
+    font-weight: bold;
+}
+
+
+
+
+
+/* Hero */
+
+#Hero .Hero .Heading h1 {
+    font-family: 'Almarai', sans-serif;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-top: auto;
+}
+
+#Hero .Hero .Heading h3 {
+    font-family: 'Almarai', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+
+
+
+/* Sections */
+
+.container {
+    background-color: white;
+    font-family: 'Almarai', sans-serif;
+    width: 70%;
+    opacity: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center; /* Center the text within the container */
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    opacity: 100%;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.form-group {
+    display: none;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Make form elements inline */
+.form-group label,
+.form-group input,
+button[type="submit"] {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px; /* Add some spacing between elements */
+}
+
+input {
+    width: 200px; /* Set a fixed width or adjust as needed */
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #bdbdbd;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffffff;
+}
+
+
+
+/* Footer */
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp</title>
+    <link rel="shortcut icon" href="Images/Icon/Favicon.ico" />
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <section id="header">
+        <ul class="List">
+            <li class="active"><a href=".html">Contact us</a></li>
+            <li class=""><a href=".html">Blog</a></li>
+            <li class=""><a href=".html">About Us</a></li>
+        </ul>
+    </section>
+
+
+
+    <!-- Hero -->
+    <section id="Hero">
+        <div class="Hero">
+            <div class="Heading">
+                <h3>VISIT</h3>
+                <h1>THE BLUE LAGOON</h1>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    
+    <!-- Main Sections will go here -->
+    
+    <Section>
+        <div class="section1">
+            <div class="container">
+                <div class="buttons">
+                  <button onclick="showOneWayForm()">One Way</button>
+                  <button onclick="showReturnForm()">Return</button>
+                </div>
+                
+                <form id="holidayForm">
+                  <div class="form-group" id="departureSection">
+                    <label for="departureLocation">Departure Location:</label>
+                    <input type="text" id="departureLocation" name="departureLocation" required>
+                    
+                    <label for="departureDate">Departure Date:</label>
+                    <input type="date" id="departureDate" name="departureDate" required>
+                    
+                    <label for="numOfPeople">Number of People:</label>
+                    <input type="number" id="numOfPeople" name="numOfPeople" min="1" required>
+                  </div>
+                  
+                  <div class="form-group" id="returnSection">
+                    <label for="returnLocation">Return Location:</label>
+                    <input type="text" id="returnLocation" name="returnLocation" required>
+                    
+                    <label for="returnDate">Return Date:</label>
+                    <input type="date" id="returnDate" name="returnDate" required>
+                  </div>
+                  
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+        </div>
+    </Section>
