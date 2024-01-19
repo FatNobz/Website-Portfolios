@@ -88,23 +88,21 @@ body {
 
 .buttons {
     position: relative;
-    top: -50px;
+    top: -68px;
     margin-bottom: 20px;
 }
 
 .container button {
     background-color: white;
     border: none;
-    border-radius: 10px;
     opacity: 100%;
     padding: 15px 40px;
     margin: 0 10px;
     font-size: 16px;
 }
-.container button :hover {
+.container button:hover {
     background-color: rgb(192, 190, 190);
     border: none;
-    border-radius: 10px;
     opacity: 100%;
     padding: 15px 40px;
     margin: 0 10px;
@@ -127,7 +125,9 @@ label {
 button[type="submit"] {
     display: inline-block;
     vertical-align: top;
+    margin-top: 30px;
     margin-right: 10px; /* Add some spacing between elements */
+    margin: 0 auto;
 }
 
 input {
@@ -138,15 +138,18 @@ input {
 }
 
 button[type="submit"] {
-    margin-top: 20px;
     background-color: #e4e2e2;
     color: black;
     cursor: pointer;
     display: none; /* Initially hide the submit button */
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 button[type="submit"]:hover {
     background-color: #aaaaaa;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 
