@@ -183,10 +183,16 @@ button a {
     color: white;
 }
 
-.section2 .areaHeading {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
+.section2 .areaHeading .areaHead1 {
+
+}
+
+.section2 .areaHeading .areaHead1 .bar1 {
+    width: 350px;
+}
+
+.section2 .areaHeading .areaHead2 .bar2 {
+    width: 350px;
 }
 
 .section2 .areaHead1 h2 {
